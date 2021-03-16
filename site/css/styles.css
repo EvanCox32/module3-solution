@@ -1,0 +1,153 @@
+body {
+    display: block;
+    margin: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.row {
+  width: 100%;
+}
+
+h1 {
+  color: black;
+}
+
+/** HEADER- NAV **/
+#header-nav {
+	background-color: gray;
+	border-radius: 0;
+  	border: 0;
+  	padding: 30px;
+  	width: 100%;
+  	border-bottom: : 2px solid black;
+}
+
+
+/* Restaurant name: FOOD LLC*/
+.navbar-brand { 
+  font-family: serif;
+  color: black;
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .5;
+  padding-top: 5px;
+  padding-left: 10px;
+}
+
+/* TITLE: OUR MENU */
+
+h2 {
+	text-align: center;
+}
+
+#menu-content {
+	text-align: center;
+  border: 8px solid white
+}
+
+.container {
+	background-color: gray;
+	padding: 8px 8px 8px 8px;
+  width: 100%;
+}
+
+p {
+	text-align: left;
+  padding: 10px;
+  color: black;
+}
+
+/* Nav Bar */
+#nav-list {
+  margin-top: 5px;
+}
+#nav-list {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list {
+  background: #E7E7E7;
+}
+#nav-list span {
+  font-size: 2em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -20px;
+
+}
+
+span {
+  border-bottom: 1px solid black;
+  width: 100$
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+}
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+   /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+  .navbar-brand p { /* Kosher cert */
+    font-size: .6em;
+    margin-top: 12px;
+  }
+  .navbar-brand p img { /* Star-K */
+    height: 20px;
+  }
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  #call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #f6b319;
+    color: #951c49;
+  }
+  #xs-deliver {
+    margin-top: 5px;
+    font-size: .7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+
+
+
+
